@@ -6,15 +6,14 @@ Spatial index using KD-tree for finding neighbor search.
 
 #### index = spatialIndex(points, metric, dimensions, accuracy)
 
-`points` - array of points
-`metric` - distance function between two points
-`dimensions` - list of props representing each direction e.g.: 
-Array like point [0.3, 0.5] -> [0, 1]
-Object like point { x: 0.3, y: 0.5 } -> ['x', 'y']
-`accuracy` - precision below which points are considered equal
+`points` - array of points  
+`metric` - distance function between two points  
+`dimensions` - list of props representing each direction e.g.:  
+Array like point [0.3, 0.5] -> [0, 1]  
+Object like point { x: 0.3, y: 0.5 } -> ['x', 'y']  
+`accuracy` - precision below which points are considered equal  
 
 ```javascript
-
 const spatialIndex = require('spatial-index')
 const Vec2 = require('pex-math/Vec2')
 

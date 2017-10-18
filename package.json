@@ -9,6 +9,10 @@
   "keywords": [
     "geometry"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vorg/spatial-index"
+  },
   "author": "Marcin Ignac <marcin.ignac@gmail.com>",
   "license": "MIT",
   "dependencies": {
