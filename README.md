@@ -8,7 +8,7 @@ Spatial index using KD-tree for finding neighbor search.
 
 `points` - array of points  
 `metric` - distance function between two points  
-`dimensions` - list of props representing each direction e.g.:  
+`dimensions` - list of props representing each dimension e.g.:  
 Array like point [0.3, 0.5] -> [0, 1]  
 Object like point { x: 0.3, y: 0.5 } -> ['x', 'y']  
 `accuracy` - precision below which points are considered equal  
